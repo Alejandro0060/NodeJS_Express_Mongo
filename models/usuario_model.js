@@ -9,7 +9,7 @@ const usuarioSchema = new mongoose.Schema({
 
     nombre:{
          type:String,
-        required:true
+         required:true
     },
 
     password:{
@@ -19,7 +19,7 @@ const usuarioSchema = new mongoose.Schema({
 
     estado:{
         type:Boolean,
-        required: false
+        default: true
     },
 
     imagen:{
